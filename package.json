@@ -6,7 +6,9 @@
   "scripts": {
     "start": "ts-node-dev . --transpile-only",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "commit": "cz",
+    "build": "babel index.ts --out-file bundle.js --minified --compact true --copy-files",
+    "prod": "node bundle.js"
   },
   "author": "",
   "license": "MIT",
