@@ -28,4 +28,4 @@ app.get('/:host', async (req, res) => {
     return res.redirect(`${resultURL}${rawQuery !== '?' ? rawQuery : ''}`);
 });
 
-app.listen(8080, () => console.log('Server started at port: 80'));
+app.listen(process.env.PORT || 8080, () => console.log('Server started at port: 80'));
