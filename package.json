@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node-dev . --transpile-only",
+    "start": "node dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz",
-    "build": "babel index.ts --out-file dist/index.js --minified --compact true --copy-files && npm run prod",
-    "prod": "node dist"
+    "build": "babel index.ts --out-file dist/index.js --minified --compact true --copy-files",
+    "dev": "ts-node-dev . --transpile-only"
   },
   "author": "",
   "license": "MIT",
