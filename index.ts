@@ -17,6 +17,9 @@ app.get('/:host', async (req, res) => {
         statusCode = response.status;
     } catch (e) {
         statusCode = 500;
+        if (e.response) {
+            statusCode = e.response.status;
+        }
     }
 
     let resultURL = 'https://img.shields.io/badge/website-down-critical';
