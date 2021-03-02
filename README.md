@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://moveit.tales-garcia.vercel.app"><img src="https://website-badge.herokuapp.com/website-badge.herokuapp.com" /></a>
+    <img src="https://website-badge.herokuapp.com/website-badge.herokuapp.com" />
     <img src="https://img.shields.io/github/license/tales-garcia/website-badge" alt="license" />
     <img src="https://img.shields.io/github/last-commit/tales-garcia/website-badge?logo=git" alt="last commit" />
 </p>
